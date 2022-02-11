@@ -41,4 +41,4 @@ def repeat(message: telebot.types.Message):
     bot.reply_to(message, 'У вас красивый голос )))')
 
 
-bot.polling (none_stop=True)
+bot.polling()
